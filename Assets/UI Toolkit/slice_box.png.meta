@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 18f9942b8a8a02e43a274732eb0d76ec
+guid: 4881ea67d414df343beedc46ebe37dd9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2319978281278301289
-    second: Okse_0
+      213: -376777238764624841
+    second: slice_box_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Okse_0
+      name: slice_box_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 64
-        width: 479
-        height: 371
+        x: 1
+        y: 0
+        width: 254
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79b19c18b08cdcfd0800000000000000
-      internalID: -2319978281278301289
+      spriteID: 7346bfbf81b65caf0800000000000000
+      internalID: -376777238764624841
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Okse_0: -2319978281278301289
+      slice_box_0: -376777238764624841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

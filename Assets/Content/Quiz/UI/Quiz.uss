@@ -18,8 +18,8 @@ Label {
 
 Button {
     position: relative;
-    background-color: rgb(116, 178, 71);
-    color: rgb(255, 255, 255);
+    background-color: rgba(116, 178, 71, 0);
+    color: rgb(118, 62, 62);
     font-size: 20px;
     border-radius: 8px;
     padding: 4px 8px;
@@ -28,25 +28,33 @@ Button {
     -unity-text-align: middle-center;
     width: 100%;
     -unity-font-style: bold;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
-    border-left-color: rgb(0, 0, 0);
-    border-right-color: rgb(0, 0, 0);
-    border-top-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(0, 0, 0);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
     -unity-text-outline-width: 1px;
-    -unity-text-outline-color: rgba(0, 34, 29, 0.17);
+    -unity-text-outline-color: rgba(0, 34, 29, 0);
     margin-top: 10px;
     padding-bottom: 8px;
     padding-top: 8px;
     padding-right: 4px;
     padding-left: 4px;
+    background-image: url("project://database/Assets/UI%20Toolkit/slice_box_3D.png?fileID=2800000&guid=ded76447389c1fd4dabaf2a1a267bbcb&type=3#slice_box_3D");
+    -unity-slice-type: sliced;
+    -unity-slice-scale: 1px;
+    background-position-x: center;
+    background-position-y: center;
+    -unity-background-scale-mode: scale-to-fit;
+    -unity-slice-left: 40;
+    -unity-slice-top: 40;
+    -unity-slice-right: 40;
+    -unity-slice-bottom: 40;
+    background-size: 100% 100%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.53);
 }
 
 Button:hover {
