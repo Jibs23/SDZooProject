@@ -10,35 +10,51 @@
 
 Label {
     position: relative;
-    color: rgb(46, 61, 37);
     font-size: 30px;
     unity-text-align: center;
     unity-text-wrap: wrap;
     z-index: 1;
 }
 
-#scoreLabel {
-    position: relative;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 30px;
-    color: rgb(0, 0, 255);
-    -unity-text-align: right;
-    z-index: 1;
-}
-
 Button {
     position: relative;
-    background-color: rgb(163, 196, 139);
+    background-color: rgb(116, 178, 71);
     color: rgb(255, 255, 255);
     font-size: 20px;
     border-radius: 8px;
     padding: 4px 8px;
-    min-height: auto;
     z-index: 1;
+    white-space: pre-wrap;
+    -unity-text-align: middle-center;
+    width: 100%;
+    -unity-font-style: bold;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgba(0, 34, 29, 0.17);
+    margin-top: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-right: 4px;
+    padding-left: 4px;
 }
 
 Button:hover {
     background-color: rgb(127, 164, 106);
+}
+
+#Header {
+}
+
+#buttonContainer {
 }

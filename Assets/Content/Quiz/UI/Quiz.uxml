@@ -1,13 +1,17 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/Content/Quiz/UI/Quiz.uss?fileID=7433441132597879392&amp;guid=b47c742f94e26ea4d836d64e4b2faaf0&amp;type=3#Quiz" />
     <ui:VisualElement name="background" style="flex-grow: 1;" />
-    <ui:Label text="Label" name="questionLabel" style="white-space: normal; width: auto; max-width: 70%; font-size: 30%; flex-shrink: 0; height: 30%;" />
-    <ui:Label text="Score: 0" name="scoreLabel" style="font-size: 30%;" />
-    <ui:VisualElement name="buttonContainer" style="flex-grow: 1;">
-        <ui:Button text="Button" name="buttonTemplate" style="height: auto; min-height: auto; white-space: normal; font-size: 20%;" />
+    <ui:VisualElement name="Header" style="flex-grow: 1; top: 0; flex-direction: column; flex-wrap: nowrap;">
+        <ui:Label text="Score: 0" name="scoreLabel" style="width: 100%; position: relative; right: auto; top: auto;" />
+        <ui:Label name="questionLabel" parse-escape-sequences="false" selectable="false" focusable="false" style="white-space: normal; font-size: 25%; width: 100%; -unity-text-align: upper-left;" />
     </ui:VisualElement>
-    <ui:VisualElement name="Results" style="flex-grow: 1; position: relative; display: none;">
+    <ui:VisualElement name="buttonContainer" style="flex-grow: 1; top: auto; bottom: 10px; flex-direction: column-reverse; flex-wrap: wrap; align-items: center; justify-content: flex-start; min-width: 250px; align-self: center; align-content: flex-start; width: 100%; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px;">
+        <ui:Button name="buttonTemplate" text="PLACEHOLDER TEXT" />
+        <ui:Button name="buttonTemplate" text="PLACEHOLDER TEXT" />
+        <ui:Button name="buttonTemplate" text="PLACEHOLDER TEXT" />
+    </ui:VisualElement>
+    <ui:VisualElement name="Results" style="flex-grow: 1; position: absolute; display: none; width: 100%; height: 100%; background-color: rgb(134, 148, 217); flex-wrap: wrap; align-items: center; justify-content: center; align-self: center; padding-left: 5%; padding-right: 5%;">
         <ui:Label text="Label" name="ResultsLabel" style="white-space: normal; display: flex;" />
-        <ui:Button text="Hjem" name="HomeButton" style="display: flex;" />
+        <ui:Button text="Hjem" name="HomeButton" style="display: flex; height: 106px;" />
     </ui:VisualElement>
 </ui:UXML>
