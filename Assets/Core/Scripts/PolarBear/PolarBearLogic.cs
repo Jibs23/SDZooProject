@@ -44,8 +44,18 @@ public class PolarBearLogic : MonoBehaviour
 
     public void Eat(GameObject target)
     {
-        Vector2 targetPos = target.transform.position; ;
-        gameObject.transform.position = new Vector2(targetPos.x + 1.5f,targetPos.y);
+        Vector2 targetPos = target.transform.position;
+        var fishingHoleLogic = target.GetComponent<FishingHoleLogic>();
+        if (fishingHoleLogic.flip_bear)
+        {
+            gameObject.transform.position = new Vector2(targetPos.x - 1.5f, targetPos.y);
+            spriteRenderer.flipX = true;
+        }
+        else
+        {
+            gameObject.transform.position = new Vector2(targetPos.x + 1.5f, targetPos.y);
+            spriteRenderer.flipX = false;
+        }
         eating = true;
         spriteRenderer.sprite = attackSprite;
     }

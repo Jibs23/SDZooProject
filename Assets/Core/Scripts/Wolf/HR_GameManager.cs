@@ -47,6 +47,7 @@ public class HR_GameManager : MonoBehaviour, IMinigame
     {
         if (maxRounds >= sequence.Count)
         {
+            Random.InitState(System.DateTime.Now.Millisecond + System.Environment.TickCount);
             int nextWolf = Random.Range(0, wolves.Count);
             sequence.Add(nextWolf);
         }

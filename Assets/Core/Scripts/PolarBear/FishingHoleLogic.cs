@@ -7,6 +7,7 @@ public class FishingHoleLogic : MonoBehaviour, IPointerDownHandler
     [SerializeField] private GameObject Hole;
 
     private bool active;
+    public bool flip_bear = false;
     
     void Start()
     {
