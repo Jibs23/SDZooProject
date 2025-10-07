@@ -2,5 +2,12 @@
 }
 
 .Labels {
-    font-size: 75px;
+    -unity-font-style: bold;
+    -unity-text-outline-width: 2px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-shadow: 0 9.8px 0 rgb(0, 0, 0);
+    white-space: pre-wrap;
+    -unity-text-align: middle-center;
+    font-size: 24px;
 }
