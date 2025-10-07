@@ -75,3 +75,9 @@
 
 #VictoryPopup {
 }
+
+.unity-button:active {
+    background-image: url("project://database/Assets/UI%20Toolkit/slice_box_3D-export_flip_y.png?fileID=2800000&guid=8d95dd39a359a7040b3aea945c3c959e&type=3#slice_box_3D-export_flip_y");
+    text-shadow: 0 -10px 3px rgba(0, 0, 0, 0.39);
+    scale: 0.9 0.9 0.9;
+}
