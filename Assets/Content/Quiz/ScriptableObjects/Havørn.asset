@@ -17,32 +17,24 @@ MonoBehaviour:
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: "Hvilen art hav\xF8rn er de 2 majst\xE6tiske \xF8rne vi har her
-      i parken?"
+  - questionText: "Stellers hav\xF8rnen har et vingefang p\xE5 hvor meget? "
     answer:
-    - Skykriger
-    - "Europ\xE6isk Hav\xF8rn"
-    - "Stellers Hav\xF8rn"
-    - Stormvinge
+    - 1 meter
+    - 5-6 meter
+    - "2-2\xBD meter"
+    - "3-3\xBD meter"
     correctAnswerIndex: 2
-  - questionText: "Hvad hedder vores 2 hav\xF8rne?"
+  - questionText: "Hvor mange forskellige arter af hav\xF8rn er der? "
     answer:
-    - Dumbledore & Gandalf
-    - Matilda & Emil
-    - Aslan & Peter Pan
-    - Flammevinge & Skyfanger
-    correctAnswerIndex: 0
-  - questionText: "Hvad er vores to hav\xF8rne opkaldt efter?"
+    - 14
+    - 10
+    - 12
+    - 8
+    correctAnswerIndex: 1
+  - questionText: "Hvilken hav\xF8rneart er den st\xF8rste? "
     answer:
-    - Narnia & Peter Pan
-    - Askepot & Tornerose
-    - Harry Potter & Hobbitten/Rignenes Herre
-    - "Matilda & Emil fra L\xF8nneberg"
-    correctAnswerIndex: 2
-  - questionText: "Hvor mange fiskemetoder har Stellers Hav\xF8rn?"
-    answer:
-    - 1
-    - 2
-    - 3
-    - 4
-    correctAnswerIndex: 2
+    - "Hvidhovedet hav\xF8rn "
+    - "Stellers Hav\xF8rn "
+    - "Konge\xF8rn "
+    - "Fiske\xF8rn "
+    correctAnswerIndex: 1

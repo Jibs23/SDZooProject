@@ -17,32 +17,24 @@ MonoBehaviour:
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: "Hvilke underart af brunbj\xF8rne har vi her i Skandinavisk dyrepark?"
+  - questionText: "Brunbj\xF8rnen har mange underarter. Hvilket svar er alle brunbj\xF8rne
+      underarter? "
     answer:
-    - "Grizzlybj\xF8rn"
-    - "Isabellabj\xF8rn"
-    - "Europ\xE6isk brunbj\xF8rn"
-    - "Bajan bj\xF8rn"
-    correctAnswerIndex: 2
-  - questionText: "Hvilke kontinenter findes brunbj\xF8rne p\xE5?"
-    answer:
-    - Europa, Asien & Nord Amerika
-    - Europa, Asien & Syd Amerika
-    - Afrika, Asien & Syd Amerika
-    - Afrika, Australien & Nord Amerika
+    - "Grizzlybj\xF8rn, Kodiakbj\xF8rn og Kamchatkabj\xF8rn "
+    - "Solbj\xF8rn, Grizzlybj\xF8rn, Malajbj\xF8rn "
+    - "Panda, Kamchatkabj\xF8rn, Isbj\xF8rn "
     correctAnswerIndex: 0
-  - questionText: "Hvor meget vejer en nyf\xF8dt brunbj\xF8rne unge ved f\xF8dseln?"
+  - questionText: "Hvad er brunbj\xF8rne is\xE6rt gode til n\xE5r de er sm\xE5? "
     answer:
-    - Omkring 1kg
-    - Omkring 500g
-    - Omkring 1,5 kg
-    - Omkring 700g
-    correctAnswerIndex: 1
-  - questionText: "Der er 5 bj\xF8rneunger som man ikke kan se forskel p\xE5 her
-      i parken, hvad hedder de?"
+    - 'Klatre '
+    - Flyve
+    - "Sl\xE5s"
+    - Cykle
+    correctAnswerIndex: 0
+  - questionText: "Hvad spiser en brunbj\xF8rn? "
     answer:
-    - Pote-klanen
-    - Skov-snuserne
-    - Grizzlygang
-    - "Bj\xF8rnebanden"
-    correctAnswerIndex: 3
+    - "De er k\xF8d\xE6dere"
+    - "De er plante\xE6dere"
+    - "De er alt\xE6dere"
+    - De spiser ikke
+    correctAnswerIndex: 2

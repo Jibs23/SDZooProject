@@ -13,35 +13,28 @@ MonoBehaviour:
   m_Name: Moskusokse
   m_EditorClassIdentifier: Assembly-CSharp::AnimalData
   animalName: Moskusokse
-  animalSprite: {fileID: 0}
+  animalSprite: {fileID: -2319978281278301289, guid: 18f9942b8a8a02e43a274732eb0d76ec, type: 3}
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: Hvad hedder dens uld?
+  - questionText: 'Hvis under angreb, hvordan beskytter flokken deres unger? '
     answer:
-    - Qiviut
-    - Tutut
-    - Muskus Uld
-    - Pelsolit
-    correctAnswerIndex: 0
-  - questionText: "Hvor meget varmere er dens uld fremfor f\xE5reuld?"
-    answer:
-    - "2 gange s\xE5 meget"
-    - "4 gange s\xE5 meget"
-    - "8 gange s\xE5 meget"
-    - "Den er ikke varmere end f\xE5reuld"
-    correctAnswerIndex: 2
-  - questionText: "Hvad er Mokusoksen besl\xE6gtet med?"
-    answer:
-    - Andre okser
-    - "F\xE5r & Geder"
-    - "K\xF8er"
-    - "F\xE5r & k\xF8er"
+    - "L\xF8ber v\xE6k "
+    - 'Danner cirkel om ungerne '
+    - "J\xE6ger j\xE6gerne ned "
+    - "Det g\xF8r de ikke "
     correctAnswerIndex: 1
-  - questionText: Hvad spiser moksusoksen?
+  - questionText: "Den bor mest nordp\xE5 af hvilken dyreart? "
     answer:
-    - "K\xF8d"
-    - Fisk
-    - Planter
-    - Alt
-    correctAnswerIndex: 2
+    - "K\xF8d\xE6dere "
+    - "Plante\xE6dere "
+    - 'Pingviner '
+    - "Den bor ikke nordp\xE5 "
+    correctAnswerIndex: 0
+  - questionText: "Hvis en moskusokse l\xF8ber, hvad kan ske for den? "
+    answer:
+    - 'Kollapse da den overophedes  '
+    - 'Den kan ikke stoppe '
+    - 'Den hopper langt '
+    - "Den lave kolb\xF8tter "
+    correctAnswerIndex: 0

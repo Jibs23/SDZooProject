@@ -17,24 +17,24 @@ MonoBehaviour:
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: "Hvilke farve(r) er polarr\xE6ven \xE5ret rundt?"
+  - questionText: "I hvor kold en kulde kan polarr\xE6ve overleve? "
     answer:
-    - Den er kridhvid
-    - "Den er hvid om vinteren men skifter til en r\xF8d pels om sommeren"
-    - "Den er hvid om vinteren men skifter til en m\xF8rk, gr\xE5brun pels om sommeren"
-    - "Den er r\xF8d"
+    - -20 grader
+    - -50 grader
+    - -70 grader
+    - -100 grader
     correctAnswerIndex: 2
-  - questionText: "Hvilken farve kan en polarr\xE6v ellers blive og hvad kaldes den
-      s\xE5?"
+  - questionText: 'Hvilken farve bliver dens pels om sommeren? '
     answer:
-    - "Bl\xE5 & den kaldes Bl\xE5r\xE6v"
-    - "R\xF8d & den hedder Solr\xE6v"
-    - "Gr\xF8n & den hedder Skovr\xE6v"
-    - "Gul & den hedder Guldr\xE6v"
+    - Brun
+    - Sort
+    - "Gr\xE5"
+    - "Lyser\xF8d"
     correctAnswerIndex: 0
-  - questionText: 
-    answer: []
-    correctAnswerIndex: 0
-  - questionText: 
-    answer: []
-    correctAnswerIndex: 0
+  - questionText: "Hvor lever polarr\xE6ven? "
+    answer:
+    - "Ved \xE6kvator "
+    - "Tropiske \xF8er "
+    - 'Tundra '
+    - 'Sydpolen '
+    correctAnswerIndex: 2

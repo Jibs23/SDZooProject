@@ -17,34 +17,25 @@ MonoBehaviour:
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: "Hvad hedder de sm\xE5 knopper der sidder p\xE5 undersiden af isbj\xF8rnens
-      poter?"
+  - questionText: "Hvor rangerer isbj\xF8rnen p\xE5 listen af st\xF8rrelse af bj\xF8rne? "
     answer:
-    - "Tr\xE6depuder"
-    - Fnullerknopper
-    - Papiller
-    - Snefnug-tapper
-    correctAnswerIndex: 2
-  - questionText: "En isbj\xF8rnemors m\xE6lk har en fedtprocent p\xE5 omkring 33%.\nHvad
-      svarer det n\xE6sten til at drikke?"
-    answer:
-    - "Kakaom\xE6lk"
-    - Milkshake
-    - Ost
-    - "Fl\xF8deskum"
-    correctAnswerIndex: 3
-  - questionText: "Hvor mange isbj\xF8rne bor der her i vores park?"
-    answer:
-    - 8 (4 han & 4 hun)
-    - 4 (4 han)
-    - 4 (2 han & 2 hun)
-    - 6 (4 han & 2 hun)
+    - 1
+    - 2
+    - 3
+    - 4
     correctAnswerIndex: 0
-  - questionText: "Hvad hedder den f\xF8rste isbj\xF8rn der flyttede ind i vores
-      park?"
+  - questionText: "Isbj\xF8rne kan ligge timevis ved huller i isen. Hvad venter de
+      p\xE5? "
     answer:
-    - Nuno
-    - Ivan
-    - Nanok
-    - Friida
-    correctAnswerIndex: 2
+    - "S\xE6ler "
+    - 'Geysere '
+    - 'Intet '
+    - 'Pengviner '
+    correctAnswerIndex: 0
+  - questionText: "Hvor h\xF8j er en isbj\xF8rn der st\xE5r p\xE5 oprejst? "
+    answer:
+    - 2 meter
+    - 3 meter
+    - 5 meter
+    - 7 meter
+    correctAnswerIndex: 1

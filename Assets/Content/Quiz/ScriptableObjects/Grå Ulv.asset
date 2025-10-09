@@ -17,19 +17,26 @@ MonoBehaviour:
   animalSound: {fileID: 0}
   funFact: 
   questions:
-  - questionText: "Flokken dannes af et for\xE6ldrepar, hvad kaldes de?"
+  - questionText: "Ulven blev erkl\xE6ret udd\xF8d i Danmark i 1813. I hvilket \xE5r
+      kom den tilbage til Danmark? "
     answer:
-    - Alfa-par
-    - Beta-par
-    - Gama-par
-    - Parent-par
+    - 2003
+    - 2012
+    - 2016
+    - 2020
+    correctAnswerIndex: 1
+  - questionText: "Ulve kan vandre op til hvor langt per d\xF8gn? "
+    answer:
+    - 70km
+    - 120km
+    - 35km
+    - 50km
     correctAnswerIndex: 0
-  - questionText: 
-    answer: []
-    correctAnswerIndex: 0
-  - questionText: 
-    answer: []
-    correctAnswerIndex: 0
-  - questionText: 
-    answer: []
-    correctAnswerIndex: 0
+  - questionText: 'Hunde udviklede sig fra ulve efter de begyndte at leve med mennesker
+      i hvilken tid? '
+    answer:
+    - 'Triastiden '
+    - 'Istiden '
+    - '1990 '
+    - 'Kridttiden '
+    correctAnswerIndex: 1
